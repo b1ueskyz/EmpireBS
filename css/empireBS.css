@@ -275,8 +275,8 @@ hr {
    line-height: 0;
    clear: both;
    border: none;
-   border-top: 1px solid #aaaaaa;
-   border-bottom: 1px solid #ffffff;
+   border-top: 0.5px solid #aaaaaa;
+   border-bottom: -0.5px solid #ffffff;
 }
 
 .footer-col-headers {
