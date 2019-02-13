@@ -74,18 +74,15 @@
    margin-top: 60px;
 }
 
-/********************************* MISC */
-
+/********************************* ICONS */
 .empire-icons {
-   width: 246px;
+   /* width: 246px;
    height: 124px;
-   object-fit: contain;
+   object-fit: contain; */
  }
 
 .empire-icons-text {
    margin-top: 35px;
-   width: 650px;
-   height: 84px;
    font-family: Montserrat;
    font-size: 14px;
    font-weight: 300;
@@ -96,9 +93,10 @@
    color: #58585b;
  }
 
-.our-text {
-   width: 494px;
-   height: 142px;
+ /********************************* OUR/AT */
+ .our-text {
+   /* width: 494px;
+   height: 142px; */
    font-family: Montserrat;
    font-size: 25.5px;
    font-weight: bold;
@@ -110,14 +108,16 @@
  }
 
 .at-empire {
-   width: 480px;
-   height: 275px;
-   object-fit: contain; 
+   max-width: 100%;
+   height: auto;
+   /* width: 480px;
+   height: 275px;  */
+   /* object-fit: contain;  */
 }
 
 .at-empire-text {
-   width: 395px;
-   height: 142px;
+   /* width: 395px;
+   height: 142px; */
    font-family: Montserrat;
    font-size: 13.5px;
    font-weight: 300;
@@ -128,7 +128,9 @@
    color: #4a4a4a;
 }
 
-.locator-rect {
+/********************************* MISC */
+
+.store-locator {
    width: 1920px;
    height: 51px;
    background-color: #2199d2; 
