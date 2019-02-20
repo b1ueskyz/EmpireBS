@@ -215,7 +215,7 @@
 
 
 div.scrollmenu {
-   background-color: white;
+   background-color: #white;
    overflow: auto;
    white-space: nowrap;
    width: 100%;
@@ -257,8 +257,6 @@ div.scrollmenu {
 }
 
 /********************************* MISC */
-
-
 hr { 
    display: block;
    position: relative;
@@ -317,3 +315,62 @@ hr {
      align-items: center;
  }
  
+/*************************************** */
+/********************************* ABOUT */
+.about-our-cannabis {
+   width: 494px;
+   height: 73px;
+   font-family: Montserrat;
+   font-size: 25.5px;
+   font-weight: bold;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: 1.47;
+   letter-spacing: normal;
+   text-align: center;
+   color: #2199d2;
+ }
+
+ .about-lorem-ipsum {
+   width: 616px;
+   height: 437px;
+   font-family: Montserrat;
+   font-size: 13.5px;
+   font-weight: 300;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: 2.11;
+   letter-spacing: normal;
+   color: #4a4a4a;
+ }
+
+ .columbia-river-basin {
+   margin-top: 80px;
+   width: 1032px;
+   height: 73px;
+   font-family: Montserrat;
+   font-size: 25.5px;
+   font-weight: bold;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: 1.47;
+   letter-spacing: normal;
+   text-align: center;
+   color: #2199d2;
+  }
+
+  .keep-it-simple {
+   font-family: Montserrat-Bold;
+   font-size: 25.5px;
+   line-height: 37.5px;
+   color: #2199d2;
+   font-style: normal;
+  }
+
+  .keep-it-simple-text {
+   font-family: Montserrat-Light;
+   font-size: 13.5px;
+   line-height: 28.5px;
+   color: #4a4a4a;
+   font-style: normal;
+  }
