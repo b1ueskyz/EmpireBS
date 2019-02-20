@@ -75,14 +75,9 @@
 }
 
 /********************************* ICONS */
-.empire-icons {
-   /* width: 246px;
-   height: 124px;
-   object-fit: contain; */
- }
 
 .empire-icons-text {
-   margin-top: 35px;
+   text-align: left;
    font-family: Montserrat;
    font-size: 14px;
    font-weight: 300;
@@ -109,7 +104,7 @@
 
 .at-empire {
    max-width: 100%;
-   height: auto;
+   height: 275;
    /* width: 480px;
    height: 275px;  */
    /* object-fit: contain;  */
@@ -131,7 +126,8 @@
 /********************************* MISC */
 
 .store-locator {
-   width: 1920px;
+   margin-top: 20px;
+   /* width: 100%; */
    height: 51px;
    background-color: #2199d2; 
 }
@@ -152,9 +148,8 @@
    color: #fee00d;
 }
 
+
 .productLine-text {
-   /* width: 1032px;
-   height: 56px; */
    font-family: Montserrat;
    font-size: 25.5px;
    font-weight: bold;
@@ -170,20 +165,21 @@
 .product-pic {
    width: 512px;
    height: 512px;
-   object-fit: contain;
 }
+
 
 .flower-grid {
    margin-top: 57px;
-   width: 960px;
-   height: 433px;
+   /* width: 960px;
+   height: 433px; */
    object-fit: contain;
  }
 
 .menu-rect {
-   /* align-self: auto; */
-   margin-left: 330px;
-   width: 290.8px;
+   align-self: auto;
+   /* margin-left: 330px; */
+   /* width: 20%; */
+   /* width: 290.8px; */
    height: 53px;
    border-radius: 26px;
    background-color: #fee00d;
@@ -204,8 +200,8 @@
 }
 
 .join-text {
-   width: 1032px;
-   height: 56px;
+   /* width: 1032px;
+   height: 56px; */
    font-family: Montserrat;
    font-size: 25.5px;
    font-weight: bold;
@@ -219,7 +215,7 @@
 
 
 div.scrollmenu {
-   background-color: #333;
+   background-color: white;
    overflow: auto;
    white-space: nowrap;
    width: 100%;
@@ -260,18 +256,17 @@ div.scrollmenu {
    color: #ffffff; 
 }
 
-.footer {
-   width: 1919px;
-   height: 305px; 
-}
+/********************************* MISC */
+
 
 hr { 
    display: block;
    position: relative;
    padding: 0;
-   margin: 8px auto;
+   margin-top: 4px;
+   margin-bottom: 16px;
    height: 0;
-   width: 97%;
+   /* width: 97%; */
    max-height: 0;
    font-size: 1px;
    line-height: 0;
@@ -282,11 +277,8 @@ hr {
 }
 
 .footer-col-headers {
-   /* width: 92px;
-   height: 28px; */
    font-family: Montserrat;
    font-size: 13.8px;
-   /* font-size: 8px; */
    font-weight: bold;
    font-style: normal;
    font-stretch: normal;
@@ -296,14 +288,13 @@ hr {
 }
 
 .footer-columns {
-   /* width: 92px;
-   height: 148px; */
+   margin-bottom: 50px;
    font-family: Montserrat;
    font-size: 12.2px;
    font-weight: 300;
    font-style: normal;
    font-stretch: normal;
-   line-height: normal;
+   line-height: 40px;
    letter-spacing: 0.8px;
    color: #ffffff;
  }
