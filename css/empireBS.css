@@ -403,6 +403,20 @@ hr {
    color: #2199d2;
 }
 
+.want-to-connect {
+   width: 494px;
+   height: 73px;
+   font-family: Montserrat;
+   font-size: 25.5px;
+   font-weight: bold;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: 1.47;
+   letter-spacing: normal;
+   text-align: center;
+   color: #2199d2;
+ }
+
 .form {
    width: 154px;
    /* height: 23px; */
@@ -413,5 +427,61 @@ hr {
    font-stretch: normal;
    line-height: normal;
    letter-spacing: normal;
+   color: #4a4a4a;
+ }
+
+.flower-menu {
+   width: 1003px;
+   height: 73px;
+   font-family: Montserrat;
+   font-size: 32px;
+   font-weight: 500;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: normal;
+   letter-spacing: 1px;
+   text-align: center;
+   color: #2199d2;
+}
+
+.prerolls-menu {
+   width: 1003px;
+   height: 47px;
+   font-family: Montserrat;
+   font-size: 32px;
+   font-weight: 500;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: normal;
+   letter-spacing: 1px;
+   text-align: center;
+   color: #2199d2;
+ }
+
+ .delta-carts {
+   width: 489px;
+   height: 47px;
+   font-family: Montserrat;
+   font-size: 24px;
+   font-weight: 500;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: normal;
+   letter-spacing: 1px;
+   text-align: center;
+   color: #2199d2;
+} 
+
+.thank-you {
+   width: 1003px;
+   height: 73px;
+   font-family: Montserrat;
+   font-size: 24px;
+   font-weight: 500;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: normal;
+   letter-spacing: 1px;
+   text-align: center;
    color: #4a4a4a;
  }
