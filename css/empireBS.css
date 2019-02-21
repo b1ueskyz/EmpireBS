@@ -215,7 +215,7 @@
 
 
 div.scrollmenu {
-   background-color: #white;
+   background-color: white;
    overflow: auto;
    white-space: nowrap;
    width: 100%;
@@ -297,7 +297,7 @@ hr {
    color: #ffffff;
  }
 
- .terms-of-use {
+.terms-of-use {
    /* width: 82px;
    height: 33px; */
    font-family: Lato;
@@ -308,12 +308,12 @@ hr {
    line-height: normal;
    letter-spacing: normal;
    color: #ffffff;
- }
+}
 
- .vertical-align {
-     display: flex;
-     align-items: center;
- }
+.vertical-align {
+   display: flex;
+   align-items: center;
+}
  
 /*************************************** */
 /********************************* ABOUT */
@@ -329,9 +329,9 @@ hr {
    letter-spacing: normal;
    text-align: center;
    color: #2199d2;
- }
+}
 
- .about-lorem-ipsum {
+.about-lorem-ipsum {
    width: 616px;
    height: 437px;
    font-family: Montserrat;
@@ -342,9 +342,9 @@ hr {
    line-height: 2.11;
    letter-spacing: normal;
    color: #4a4a4a;
- }
+}
 
- .columbia-river-basin {
+.columbia-river-basin {
    margin-top: 80px;
    width: 1032px;
    height: 73px;
@@ -357,25 +357,25 @@ hr {
    letter-spacing: normal;
    text-align: center;
    color: #2199d2;
-  }
+}
 
-  .keep-it-simple {
+.keep-it-simple {
    font-family: Montserrat-Bold;
    font-size: 25.5px;
    line-height: 37.5px;
    color: #2199d2;
    font-style: normal;
-  }
+}
 
-  .keep-it-simple-text {
+.keep-it-simple-text {
    font-family: Montserrat-Light;
    font-size: 13.5px;
    line-height: 28.5px;
    color: #4a4a4a;
    font-style: normal;
-  }
+}
 
-  .where-to-find {
+.where-to-find {
    width: 494px;
    height: 73px;
    font-family: Montserrat;
@@ -387,4 +387,31 @@ hr {
    letter-spacing: normal;
    text-align: center;
    color: #2199d2;
-   }
+}
+
+.interested-in-joining {
+   width: 494px;
+   height: 73px;
+   font-family: Montserrat;
+   font-size: 25.5px;
+   font-weight: bold;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: 1.47;
+   letter-spacing: normal;
+   text-align: center;
+   color: #2199d2;
+}
+
+.form {
+   width: 154px;
+   /* height: 23px; */
+   font-family: Montserrat;
+   font-size: 13.5px;
+   font-weight: 300;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   color: #4a4a4a;
+ }
