@@ -4,48 +4,48 @@
 .navbar-inverse {
    background-color: #fff;
    /* border-color: #080808; */
- }
+}
  
- .navbar-inverse .navbar-brand {
+.navbar-inverse .navbar-brand {
    color: #d9e1e8;
- }
+}
  
- .navbar-inverse .navbar-nav > li > a {
+.navbar-inverse .navbar-nav > li > a {
    color: #4a4a4a;
- }
+}
  
- .navbar {
+.navbar {
    position: absolute;
    min-height: 50px;
    margin-bottom: 0px;
    border: 1px solid transparent;
- }
+}
  
- .navbar-brand {
+.navbar-brand {
    font-size: 24px;
- }
+}
  
- .navbar-right > li {
+.navbar-right > li {
    font-size: 18px; 
    margin-top: 15px;
- }
+}
  
- .navbar-header > a {
+.navbar-header > a {
    margin-bottom: 20px;
- }
+}
  
- #navbar-brand {
+#navbar-brand {
     width: 166px; 
     height: 31px;
- }
+}
 
- .nav-item {
+.nav-item {
    font-family: 'Open Sans', sans-serif;
    font-size: 10px;
    color: #4a4a4a;
- }
+}
  
- .dropdown-menu {
+.dropdown-menu {
    position: absolute;
    top: 100%;
    left: 0;
@@ -66,12 +66,12 @@
    border-radius: 4px;
    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
            box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
- }
+}
 
- .dropdown-item {
+.dropdown-item {
     font-family: 'Open Sans';
     font-size: 10px;
- }
+}
  
 /********************************* CAROUSEL */
 
@@ -91,10 +91,10 @@
    line-height: 0.9;
    letter-spacing: normal;
    color: #58585b;
- }
+}
 
  /********************************* OUR/AT */
- .our-text {
+.our-text {
    /* width: 494px;
    height: 142px; */
    font-family: Montserrat;
@@ -105,7 +105,7 @@
    line-height: 1.47;
    letter-spacing: normal;
    color: #2199d2;
- }
+}
 
 .at-empire {
    max-width: 100%;
@@ -153,7 +153,6 @@
    color: #fee00d;
 }
 
-
 .productLine-text {
    font-family: Montserrat;
    font-size: 25.5px;
@@ -172,13 +171,12 @@
    height: 512px;
 }
 
-
 .flower-grid {
    margin-top: 57px;
    /* width: 960px;
    height: 433px; */
    object-fit: contain;
- }
+}
 
 .menu-rect {
    align-self: auto;
@@ -218,23 +216,22 @@
    color: #2199d2; 
 }
 
-
 div.scrollmenu {
    background-color: white;
    overflow: auto;
    white-space: nowrap;
    width: 100%;
- }
+}
  
- div.scrollmenu a {
+div.scrollmenu a {
    display: inline-block;
    color: white;
    text-align: center;
    /* padding: 14px; */
    text-decoration: none;
- }
+}
  
- .connect-with-us {
+.connect-with-us {
    /* width: 137px;
    height: 21px; */
    font-family: Lato;
@@ -300,7 +297,7 @@ hr {
    line-height: 40px;
    letter-spacing: 0.8px;
    color: #ffffff;
- }
+}
 
 .terms-of-use {
    /* width: 82px;
@@ -420,7 +417,7 @@ hr {
    letter-spacing: normal;
    text-align: center;
    color: #2199d2;
- }
+}
 
 .form {
    width: 154px;
@@ -433,7 +430,7 @@ hr {
    line-height: normal;
    letter-spacing: normal;
    color: #4a4a4a;
- }
+}
 
 .flower-menu {
    width: 1003px;
@@ -461,9 +458,9 @@ hr {
    letter-spacing: 1px;
    text-align: center;
    color: #2199d2;
- }
+}
 
- .delta-carts {
+.delta-carts {
    width: 489px;
    height: 47px;
    font-family: Montserrat;
@@ -489,7 +486,7 @@ hr {
    letter-spacing: 1px;
    text-align: center;
    color: #4a4a4a;
- }
+}
 
 .our-farm {
    width: 494px;
