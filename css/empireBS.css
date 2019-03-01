@@ -403,6 +403,7 @@ hr {
    line-height: 1.47;
    letter-spacing: normal;
    text-align: center;
+   margin-top: 15px;
    color: #2199d2;
 }
 
@@ -462,8 +463,8 @@ hr {
 }
 
 .delta-carts {
-   width: 489px;
-   height: 47px;
+   /* width: 489px;
+   height: 47px; */
    font-family: Montserrat;
    font-size: 24px;
    font-weight: 500;
