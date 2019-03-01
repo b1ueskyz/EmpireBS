@@ -288,13 +288,13 @@ hr {
 }
 
 .footer-columns {
-   margin-bottom: 50px;
+   /* margin-bottom: 50px; */
    font-family: Montserrat;
    font-size: 12.2px;
    font-weight: 300;
    font-style: normal;
    font-stretch: normal;
-   line-height: 40px;
+   line-height: 30px;
    letter-spacing: 0.8px;
    color: #ffffff;
 }
@@ -302,6 +302,7 @@ hr {
 .terms-of-use {
    /* width: 82px;
    height: 33px; */
+   margin-left: -30px;
    font-family: Lato;
    font-size: 12px;
    font-weight: normal;
