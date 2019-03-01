@@ -491,8 +491,9 @@ hr {
 }
 
 .our-farm {
-   width: 494px;
-   height: 73px;
+   /* width: 494px;
+   height: 73px; */
+   margin-top: 25px;
    font-family: Montserrat;
    font-size: 25.5px;
    font-weight: bold;
@@ -517,3 +518,17 @@ hr {
    text-align: center;
    color: #4a4a4a;  
 }
+
+.flower-preroll {
+   height: 35px;
+   /* transform: rotate(-360deg); */
+   font-family: OpenSans;
+   font-size: 24px;
+   font-weight: bold;
+   font-style: normal;
+   font-stretch: condensed;
+   line-height: normal;
+   letter-spacing: 1px;
+   color: #ffffff;
+}
+
