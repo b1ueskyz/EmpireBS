@@ -343,8 +343,8 @@ hr {
 }
 
 .about-lorem-ipsum {
-   width: 616px;
-   height: 437px;
+   /* width: 616px;
+   height: 437px; */
    font-family: Montserrat;
    font-size: 13.5px;
    font-weight: 300;
@@ -357,6 +357,7 @@ hr {
 
 .columbia-river-basin {
    margin-top: 80px;
+   margin-bottom: -40px;
    width: 1032px;
    height: 73px;
    font-family: Montserrat;
