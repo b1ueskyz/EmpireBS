@@ -104,6 +104,7 @@
    font-stretch: normal;
    line-height: 1.47;
    letter-spacing: normal;
+   text-align: right;
    color: #2199d2;
 }
 
@@ -125,6 +126,7 @@
    font-stretch: normal;
    line-height: 2.11;
    letter-spacing: normal;
+   text-align: right;
    color: #4a4a4a;
 }
 
