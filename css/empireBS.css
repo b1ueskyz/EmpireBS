@@ -1,5 +1,9 @@
 /* Main EmpireBS CSS */
 
+a {
+   color: white;
+   text-decoration: none;
+}
 /********************************* NAVBAR */
 .navbar-inverse {
    background-color: #fff;
