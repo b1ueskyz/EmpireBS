@@ -45,8 +45,12 @@ a {
 
 .nav-item {
    font-family: 'Open Sans', sans-serif;
-   font-size: 10px;
-   color: #4a4a4a;
+   font-size: 18px;
+   /* color: #2199d2; */
+}
+
+.nav-link {
+   color: #2199d2;
 }
  
 .dropdown-menu {
@@ -74,7 +78,7 @@ a {
 
 .dropdown-item {
     font-family: 'Open Sans';
-    font-size: 10px;
+    font-size: 14px;
 }
  
 /********************************* CAROUSEL */
