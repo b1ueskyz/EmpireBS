@@ -33,8 +33,7 @@ console.log(markers);
 
          var marker = new google.maps.Marker({
             map: map,
-            position: point,
-            icon: icon.icon
+            position: point
          });
          bindInfoWindow(marker, map, infoWindow, html);
          bounds.extend(marker.position);
