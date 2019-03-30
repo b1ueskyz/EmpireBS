@@ -144,6 +144,13 @@ a {
    color: #4a4a4a;
 }
 
+/********************************* MAP */
+#map {
+   width: 100%;
+   height: 500px;
+   /* background-color: grey; */
+}
+  
 /********************************* MISC */
 
 .store-locator {
