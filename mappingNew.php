@@ -21,18 +21,20 @@ header("Content-type: text/xml");
 // Iterate through the rows
 while ($row = mysqli_fetch_assoc($response)){
    // ADD TO XML DOCUMENT NODE
-   $node = $dom->createElement("marker");
-   $newnode = $parnode->appendChild($node);
-   $newnode->setAttribute("name",$row['name']);
+   $node    = $dom->createElement("marker");
+	$newnode = $parnode->appendChild($node);
+	
+   $newnode->setAttribute("name",    $row['name']);
    $newnode->setAttribute("address", $row['address']);
-   $newnode->setAttribute("city", $row['city']);
-   $newnode->setAttribute("phone", $row['phone']);
+   $newnode->setAttribute("city",    $row['city']);
+   $newnode->setAttribute("phone",   $row['phone']);
    $newnode->setAttribute("website", $row['website']);
-   $newnode->setAttribute("lat", $row['latitude']);
-   $newnode->setAttribute("lng", $row['longitude']);
+   $newnode->setAttribute("lat",     $row['latitude']);
+   $newnode->setAttribute("lng",     $row['longitude']);
  }
+ 
  echo $dom->saveXML();
  
-mysqli_close($dbc);
+ mysqli_close($dbc);
 
-?>
+ ?>

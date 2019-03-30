@@ -3,21 +3,16 @@ function
 initMap() {
    var map = new google.maps.Map(document.getElementById('map'), 
       {center: new google.maps.LatLng(47.6062, -122.3321),
-         zoom: 10});
+         zoom: 8});
 
    var infoWindow = new google.maps.InfoWindow;
-   var bounds = new google.maps.LatLngBounds();
+   var bounds     = new google.maps.LatLngBounds();
 
-   // Change this depending on the name of your PHP or XML file
    downloadUrl('http://54.201.224.98/EmpireBS/mappingNew.php', 
    function(data) {
-      // console.log("data"); 
-      // console.log(data);
-
       var xml = data.responseXML;
       var markers = xml.documentElement.getElementsByTagName('marker');
-// console.log(markers);
-      // Array.prototype.forEach.call(markers, function(markerElem) {
+
       for (var i = 0; i < markers.length; i++) {
          var id       = markers[i].getAttribute('id');
          var name     = markers[i].getAttribute('name');
@@ -29,14 +24,13 @@ initMap() {
          var point    = new google.maps.LatLng(
             parseFloat(markers[i].getAttribute('lat')),
             parseFloat(markers[i].getAttribute('lng')));
-         var html     = "<b>" + name + "</b><br/>" + city + "<br/>" + phone + "<br/>" + website;
 
+         var html   = "<b>" + name + "</b><br/>" + city + "<br/>" + phone + "<br/>" + website;
          var marker = new google.maps.Marker({
             map: map,
-            position: point,
-            title:'Hello'
+            position: point
          });
-// console.log(markers[i]);
+
          bindInfoWindow(marker, map, infoWindow, html);
          bounds.extend(marker.position);
       }
