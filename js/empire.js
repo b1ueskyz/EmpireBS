@@ -6,10 +6,12 @@ initMap() {
          zoom: 8});
 
    var infoWindow = new google.maps.InfoWindow;
-   var bounds     = new google.maps.LatLngBounds();
+   var bounds = new google.maps.LatLngBounds();
 
+   // Change this depending on the name of your PHP or XML file
    downloadUrl('http://54.201.224.98/EmpireBS/mappingNew.php', 
    function(data) {
+
       var xml = data.responseXML;
       var markers = xml.documentElement.getElementsByTagName('marker');
 
@@ -25,7 +27,22 @@ initMap() {
             parseFloat(markers[i].getAttribute('lat')),
             parseFloat(markers[i].getAttribute('lng')));
 
-         var html   = "<b>" + name + "</b><br/>" + city + "<br/>" + phone + "<br/>" + website;
+    var html = "<div style='background-color:#2199D2; color:white;'><b>" 
+               + name 
+               + "</b><br/>" 
+               + address 
+               + "<br/>" 
+               + city 
+               + "<br/>" 
+               + phone 
+               + "<br/>" 
+               + "<a target='_blank' href=http://" 
+               + website  
+               + ">" 
+               +  website 
+               + "</a></div";
+      //   var html     = "<b>" + name + "</b><br/>" + city + "<br/>" + phone + "<br/>" + website;
+
          var marker = new google.maps.Marker({
             map: map,
             position: point
@@ -34,7 +51,7 @@ initMap() {
          bindInfoWindow(marker, map, infoWindow, html);
          bounds.extend(marker.position);
       }
-      map.fitBounds(bounds);
+//      map.fitBounds(bounds);
    });
 }
 
