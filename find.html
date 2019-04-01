@@ -7,8 +7,12 @@
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="js/bootstrap.min.js"></script>
+		<!-- <script src="js/bootstrap.min.js"></script> -->
 		<script src="js/empire.js"></script>
 		<script src="https://www.w3schools.com/lib/w3.js"></script>
 		<!-- Bootstrap -->
@@ -21,30 +25,28 @@
    <body>
 		<!-- <div w3-include-html="empireHeader.html"></div>  -->
 		<!-- Navigation -->
-		<header class="sticky-top">
-		<nav class="navbar sticky-top bg-light navbar-expand-lg">
-				<a class="navbar-brand" style="margin-left:315px;" href="index.html">    
+		<!-- <nav class="navbar bg-light navbar-expand-md fixed-top">
+				<a class="navbar-brand" href="index.html">    
 					<img src="images/indexA/mastheadLogo.png" width="166" height="31" alt="">
 				</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-					
-				<div class="collapse navbar-collapse ml-5" id="navbarSupportedContent">
-					<ul class="navbar-nav mr-auto">
-						<li class="nav-item" style="margin-left:10px;">
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						 <li class="nav-item" style="margin-left:10px;">
 							<a class="nav-link" style="padding-right:0px;" href="products.html" >Products</a>
 						</li>
 						<li class="nav-item dropdown" style="padding-left:0px;">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Products</a>
+							<div class="dropdown-menu">
 								<a class="dropdown-item" href="flower.html">Flower</a>
 								<a class="dropdown-item" href="prerolls.html">Pre-Rolls</a>
 								<a class="dropdown-item" href="infused.html">Infused</a>
 								<a class="dropdown-item" href="delta8.html">Delta 8 Carts</a>
 								<a class="dropdown-item" href="delta9.html">Delta 9 Carts</a>
-								<!-- <a class="dropdown-item" href="tinctures.html">Tinctures</a>
-								<a class="dropdown-item" href="capsules.html">Capsules</a> -->
+								<a class="dropdown-item" href="tinctures.html">Tinctures</a>
+								<a class="dropdown-item" href="capsules.html">Capsules</a>
 							</div>
 						</li>             
 						<li class="nav-item" style="margin-left:13px;">
@@ -58,28 +60,70 @@
 						</li>
 					</ul>
 				</div>
-		</nav>      
-		</header>
+		</nav>      -->
+		<div class="container">
+		<nav class="navbar fixed-top bg-light navbar-light navbar-expand-md" style="margin-bottom:100px; justify-content:center;">
+			<a class="navbar-brand" href="index.html" style="margin-left:50px;">    
+				<img src="images/indexA/mastheadLogo.png" width="166" height="31" alt="">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				  <ul class="navbar-nav justify-content-center">
+						<li class="nav-item dropdown" style="padding-left:50px;">
+							<a class="nav-link" href="products.html" id="navbardrop" data-toggle="dropdown">Products</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="products.html"><strong>All Products</strong></a>
+								<a class="dropdown-item" href="flower.html">Flower</a>
+								<a class="dropdown-item" href="prerolls.html">Pre-Rolls</a>
+								<a class="dropdown-item" href="infused.html">Infused</a>
+								<a class="dropdown-item" href="delta8.html">Delta 8 Carts</a>
+								<a class="dropdown-item" href="delta9.html">Delta 9 Carts</a>
+								<a class="dropdown-item" href="tinctures.html">Tinctures</a>
+								<a class="dropdown-item" href="capsules.html">Capsules</a>
+							</div>
+						</li>             
+	
+						<li class="nav-item" style="margin-left:13px;">
+							<a class="nav-link" href="about.html">About Us</a>
+						</li>	
+						<li class="nav-item" style="margin-left:13px;">
+							<a class="nav-link" href="find.html">Find Us</a>
+						</li>
+						<li class="nav-item" style="margin-left:12px;">
+							<a class="nav-link" href="contact.html">Contact Us</a>
+						</li>
+
+							
+					</ul>
+				</div>  
+		</nav>
+	   </div>
+					 
+		<div class="container">
 		<!-- <div w3-include-html="findBody.html"></div>  -->
       <!-- Masthead -->
-      <div>
+		</div>
+		<div>
 			<img class="img-fluid" style="margin-top:70px;" src="images/mastheads/store_locator_masthead_type.png">
 		</div>
-		
+
 		<!-- MAP -->
 		<div class="container">
 			<div class="row" style="padding-top:20px;">
 				<div class="col-12 where-to-find">
 					Where to find our products
-						<div class="col-sm-12" id="map"></div>
-					</div>
 				</div>
+			</div>
+			<div class="row">
+					<div class="col-sm-12" id="map"></div>
 			</div>
 		</div>
 
 		<!-- Bricks -->
 		<div class="container">
-			<div class="row"  style="margin-top:500px">
+			<div class="row">
 				<div class="col-sm-4 offset-sm-2" style="margin-top:10px; padding-right: 5px;">
 					<a href="partner.html"><img class="img-fluid" src="images/bricks/brickPartner.png"></a>
 				</div>
@@ -112,15 +156,16 @@
 				</div>
 			</div>
 		</div>
-			
+	</div>			
 		<!-- <div w3-include-html="empireFooter.html"></div>  -->
       <!-- Footer -->
       <div class="footer" style="background-color:#000; margin-top: 50px;">
 			<!-- <div class="row" style="padding-top:10px;">
 			</div> -->
 
-			<div class="row" style="padding-top:15px;">
-				<div class="col-4 offset-4 col-sm-4 offset-sm-2 col-md-4 offset-md-2 col-lg-2 offset-lg-1">
+			<!-- Footer Columns -->
+			<div class="row">
+				<div class="col-4 offset-4 col-sm-4 offset-sm-2 col-md-4 offset-md-2 col-lg-2 offset-lg-1" style="padding-top:15px; padding-bottom: 15px;">
 					<div class="row footer-col-headers">
 						COMPANY
 					</div>
@@ -135,7 +180,7 @@
 					</div>
 				</div>
 
-				<div class="col-4 offset-4 col-sm-3 col-sm-4 offset-sm-0 col-md-4 col-lg-3 offset-lg-0">
+				<div class="col-4 offset-4 col-sm-3 col-sm-4 offset-sm-0 col-md-4 col-lg-3 offset-lg-0" style="padding-top:15px; padding-bottom: 15px;">
 					<div class="row footer-col-headers">
 						RETAILERS & PARTNERS
 					</div>
@@ -150,7 +195,7 @@
 					</div>                  
 				</div>
 
-				<div class="col-4 offset-4 col-sm-4 offset-sm-2 col-md-4 offset-md-2 col-lg-2 offset-lg-0">
+				<div class="col-4 offset-4 col-sm-4 offset-sm-2 col-md-4 offset-md-2 col-lg-2 offset-lg-0" style="padding-top:15px; padding-bottom: 15px;">
 					<div class="row footer-col-headers">
 						PRODUCTS
 					</div>
@@ -174,7 +219,7 @@
 					</div>                   -->
 				</div>
 
-				<div class="col-4 offset-4 col-sm-4 offset-sm-0 col-md-4 col-lg-2 offset-lg-0">
+				<div class="col-4 offset-4 col-sm-4 offset-sm-0 col-md-4 col-lg-2 offset-lg-0" style="padding-top:15px; padding-bottom: 15px;">
 					<div class="row footer-col-headers">
 						CONTACT US
 					</div>
@@ -193,10 +238,11 @@
 				</div>
 			</div>
 
-			<div class="row">
+			<!-- <div class="row">
 				<hr>
-			</div>
+			</div> -->
 
+			<!-- Terms and Privacy -->
 			<div class="row terms-of-use">
 				<div class="col-4 offset-4 col-sm-4 offset-sm-2 col-md-4 offset-md-2 col-lg-2 offset-lg-1" style="padding-left: -10px;">
 					<a href="terms.html">Terms of use</a>
