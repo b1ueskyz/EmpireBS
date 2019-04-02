@@ -7,9 +7,15 @@ initMap() {
 
    var infoWindow = new google.maps.InfoWindow;
    var bounds = new google.maps.LatLngBounds();
+   var icon = {
+      url: "images/mapIcon.svg",
+      anchor: new google.maps.Point(25,50),
+      scaledSize: new google.maps.Size(40,40)
+  }
+
 
    // Change this depending on the name of your PHP or XML file
-   downloadUrl('http://54.201.224.98/EmpireBS/mappingNew.php', 
+   downloadUrl('http://www.empireexperience.com/EmpireBS/mappingNew.php', 
    function(data) {
 
       var xml = data.responseXML;
@@ -43,9 +49,11 @@ initMap() {
                + "</a></div";
       //   var html     = "<b>" + name + "</b><br/>" + city + "<br/>" + phone + "<br/>" + website;
 
+ 
          var marker = new google.maps.Marker({
             map: map,
-            position: point
+            position: point,
+            icon: icon
          });
 
          bindInfoWindow(marker, map, infoWindow, html);
