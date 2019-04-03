@@ -11,30 +11,34 @@
          </div>
       </div>
 
-      <!-- FORM -->
+      <!-- NEW FORM -->
       <div class="container">
          <div class="row">
-            <div class="col-sm-6 offset-sm-3 form">
-               <p>First & Last Name*</p>
-               <hr>
-               <p>Company*</p>
-               <hr>
-               <p>Email*</p>
-               <hr>
-               <p>Phone*</p>
-               <hr>
-               <p>How can we help you?</p>
-               <hr>
-            </div>
-         </div>
-      </div>
-
-      <div class="container">
-         <div class="row">
-            <div class="col-2 offset-5">
-               <button>
-                  <img src="images/buttons/subscribe.png" height="31px" width="124px">
-               </button>
+            <div class="col-6 offset-3">
+               <form id="mainform" action="MAILTO:pmcurry@gmail.com?subject=Retailer Inquiry" name="mainform" method="post" enctype="text/plain">
+                  <div class="form-group">
+                     <label for="inputName"><b>First & Last Name</b></label>
+                     <input type="text" name="name" maxlength="50" placeholder="Required" class="form-control input-border" value="" id="inputName">
+                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                  <div class="form-group">
+                     <label for="exampleInputPassword1"><b>Company</b></label>
+                     <input type="text" name="company" maxlength="50" placeholder="Required" class="form-control input-border" value="" id="inputCompany">
+                  </div>
+                  <div class="form-group">
+                     <label for="exampleInputPassword1"><b>Email</b></label>
+                     <input type="email" name="email" maxlength="50" placeholder="Required" class="form-control input-border" value="" id="inputEmail">
+                  </div>
+                  <div class="form-group">
+                     <label for="exampleInputPassword1"><b>Phone</b></label>
+                     <input type="text" name="phone" maxlength="15" placeholder="Required" class="form-control input-border" value="" id="inputPhone">
+                  </div>
+                  <div class="form-group">
+                     <label for="exampleFormControlTextarea1"><b>How can we help you?</b></label>
+                     <textarea class="form-control" name="message" id="formControlMessage" rows="3"></textarea>
+                  </div>
+                  <button name="mainform"  class="btn btn-lg btn-info pull-right m-t-n-xs" type="submit"><strong>Submit</strong></button>                        
+               </form>
             </div>
          </div>
       </div>

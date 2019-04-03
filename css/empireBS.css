@@ -4,6 +4,14 @@ a {
    color: white;
    text-decoration: none;
 }
+
+.input-border {
+   border: none;
+   border-bottom: 1px solid black;
+   border-radius: 0px;
+}
+
+ 
 /********************************* NAVBAR */
 .navbar-inverse {
    background-color: #fff;
