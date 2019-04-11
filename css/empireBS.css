@@ -290,14 +290,20 @@ a {
 /***********************************************/
 /*****************************  INDEX PAGE  ****/
 /***********************************************/
+.empire-icons {
+   margin: auto;
+   display: block;
+}
+
 .empire-icons-text {
-   text-align: left;
+   text-align: center;
+   /* margin-top: 40px; */
    font-family: Montserrat;
    font-size: 14px;
    font-weight: 300;
    font-style: normal;
    font-stretch: normal;
-   line-height: 0.9;
+   line-height: 1.9;
    letter-spacing: normal;
    color: #58585b;
 }
@@ -311,8 +317,8 @@ a {
    line-height: 1.47;
    letter-spacing: normal;
    text-align: left;
-   padding-left: 100px;
-   padding-right: 20px;
+   /* padding-left: 100px;
+   padding-right: 20px; */
    color: #2199d2;
 }
 
@@ -332,8 +338,8 @@ a {
    line-height: 2.11;
    letter-spacing: normal;
    text-align: left;
-   padding-left: 100px;
-   padding-right: 20px;
+   /* padding-left: 100px;
+   padding-right: 20px; */
    color: #4a4a4a;
 }
 
