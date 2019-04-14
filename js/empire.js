@@ -15,7 +15,7 @@ initMap() {
 
 
    // Change this depending on the name of your PHP or XML file
-   downloadUrl('http://www.empireexperience.com/EmpireBS/mappingNew.php', 
+   downloadUrl('https://www.empireexperience.com/EmpireBS/mappingNew.php', 
    function(data) {
 
       var xml = data.responseXML;
